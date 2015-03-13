@@ -18,7 +18,7 @@ dependencies {
 
 # Usage
 
-Replace your ImageView with `com.inthecheesefactory.lab.animation.AdjustableImageView` and replace your ImageButton with `com.inthecheesefactory.lab.animation.AdjustableImageButton`, for example:
+Replace your ImageView with `com.inthecheesefactory.thecheeselibrary.widget.AdjustableImageView` and replace your ImageButton with `com.inthecheesefactory.thecheeselibrary.widget.AdjustableImageButton`, for example:
 
 ```xml
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -36,13 +36,13 @@ Replace your ImageView with `com.inthecheesefactory.lab.animation.AdjustableImag
             android:layout_height="match_parent"
             android:orientation="vertical">
 
-            <com.inthecheesefactory.lab.animation.AdjustableImageView
+            <com.inthecheesefactory.thecheeselibrary.widget.AdjustableImageView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:adjustViewBounds="true"
                 android:src="@mipmap/ic_launcher"/>
 
-            <com.inthecheesefactory.lab.animation.AdjustableImageView
+            <com.inthecheesefactory.thecheeselibrary.widget.AdjustableImageView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:adjustViewBounds="true"
