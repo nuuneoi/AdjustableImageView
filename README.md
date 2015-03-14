@@ -1,6 +1,8 @@
 # AdjustableImageView
 
-Provide `AdjustableImageView` and `AdjustableImageButton` which are the ImageView and ImageButton with the correct **adjustViewBounds** behaviour.
+Provide `AdjustableImageView` and `AdjustableImageButton` to correct the **adjustViewBounds** behavior of ImageView and ImageButton when run on API Level 17 and below.
+
+![](http://inthecheesefactory.com/uploads/source/adjustableimageview/final.png)
 
 # Version
 
