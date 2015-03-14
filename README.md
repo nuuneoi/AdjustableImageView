@@ -4,6 +4,8 @@ Provide `AdjustableImageView` and `AdjustableImageButton` to correct the **adjus
 
 ![](http://inthecheesefactory.com/uploads/source/adjustableimageview/final.png)
 
+You could find the full documentation about AdjustableImageView in http://inthecheesefactory.com/blog/correct-imageview-adjustviewbounds-with-adjustable-imageview/en
+
 # Version
 
 1.0.0
