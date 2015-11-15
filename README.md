@@ -8,7 +8,7 @@ Related article about this library is written at http://inthecheesefactory.com/b
 
 # Version
 
-1.0.0
+1.0.1
 
 # Installation
 
@@ -16,7 +16,7 @@ To use this library in your android project, just simply add the following depen
 
 ```sh
 dependencies {
-    compile 'com.inthecheesefactory.thecheeselibrary:adjustable-imageview:1.0.0'
+    compile 'com.inthecheesefactory.thecheeselibrary:adjustable-imageview:1.0.1'
 }
 ```
 
@@ -59,6 +59,10 @@ Replace your ImageView with `com.inthecheesefactory.thecheeselibrary.widget.Adju
 ```
 
 # Change Logs
+
+### v1.0.1
+
+Fix some bug with manifest merger
 
 ### v1.0.0
 
