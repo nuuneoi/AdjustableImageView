@@ -1,8 +1,24 @@
 apply plugin: 'com.android.library'
 
 ext {
+    bintrayRepo = 'maven'
+    bintrayName = 'adjustable-imageview'
+
+    publishedGroupId = 'com.inthecheesefactory.thecheeselibrary'
     libraryName = 'AdjustableImageView'
     artifact = 'adjustable-imageview'
+
+    libraryDescription = 'ImageView and ImageButton with the correct adjustViewBounds behaviour'
+
+    siteUrl = 'https://github.com/nuuneoi/AdjustableImageView'
+    gitUrl = 'https://github.com/nuuneoi/AdjustableImageView.git'
+
+    libraryVersion = '1.0.2'
+
+    developerId = 'nuuneoi'
+    developerName = 'Sittiphol Phanvilai'
+    developerEmail = 'sittiphol@gmail.com'
+
     licenseName = 'The Apache Software License, Version 2.0'
     licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
     allLicenses = ["Apache-2.0"]
@@ -10,7 +26,7 @@ ext {
 
 android {
     compileSdkVersion 23
-    buildToolsVersion "23.0.1"
+    buildToolsVersion "23.0.2"
 
     defaultConfig {
         minSdkVersion 15
@@ -30,5 +46,8 @@ dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
 }
 
-apply from: '../install.gradle'
-apply from: '../bintray.gradle'
+//apply from: '../install.gradle'
+//apply from: '../bintray.gradle'
+
+apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle'
+apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle'
